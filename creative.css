@@ -1,0 +1,40 @@
+body, main, #creative, .creative-box, .creative-box h2, .creative-box p {
+  color: #cdd6f4;
+}
+.creative-buttons {
+  margin-bottom: 1.5rem;
+}
+.creative-buttons button {
+  background: #b4befe;
+  color: #1e1e2e;
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  margin-right: 1rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.creative-buttons button:hover {
+  background: #cdd6f4;
+}
+.creative-box {
+  background: #181825;
+  border-radius: 16px;
+  padding: 2rem;
+  margin-top: 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: flex-start;
+}
+.creative-box img {
+  border-radius: 8px;
+  background: #b4befe;
+  width: 500px;
+  height: 375px;
+  object-fit: cover;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}

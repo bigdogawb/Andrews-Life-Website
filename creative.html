@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creative Endeavors</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="creative.css">
+</head>
+<body>
+  <div class="grid-container">
+    <div id="sidebar"></div>
+    <main>
+      <section id="creative">
+        <h1>Creative Endeavors</h1>
+        <div class="creative-buttons">
+          <button onclick="showBox('DigitalArt')">Digital Art</button>
+          <button onclick="showBox('Blender')">Blender</button>
+          <button onclick="showBox('VideoEdits')">Video Edits</button>
+        </div>
+        <div id="creative-box" class="creative-box" style="display:none;"></div>
+      </section>
+    </main>
+  </div>
+  <script src="sidebar.js"></script>
+  <script src="creative.js"></script>
+</body>
+</html>
